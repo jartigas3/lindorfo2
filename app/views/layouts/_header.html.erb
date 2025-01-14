@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="<%= root_path %>">
+      <%= image_tag "lindorfo.png", alt: "Logo Lindorfo", style: "height: 50px;" %>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="<%= root_path %>">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= quienes_somos_path %>">Quiénes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= servicios_path %>">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= atencion_virtual_path %>">Atención Virtual</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= clientes_path %>">Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= blog_path %>">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= movistarvet_path %>">MovistarVet</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<%= mas_path %>">Más</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
